@@ -7,8 +7,9 @@ public final class HelloWorld {
 	}
 
 	public static int procNumber() {
-		return Runtime.getRuntime().availableProcessors();
+
 		System.out.println("This program has been realised by " + AUTHOR);
+		return Runtime.getRuntime().availableProcessors();
 	}
 
 }
